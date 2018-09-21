@@ -1,0 +1,29 @@
+1. download virtualbox and install.
+1.1 assign 2 gb as ram.
+1.2 launch a linux image on it.
+
+2. create a user 'demo' with home directory /home/demo
+2.1 generate ssh keypair on your local machine. 
+2.2 add key to aws instance and login
+
+3. In both virtualbox image and aws image instance
+3.1 download and install nginx server on the system
+3.2 change the head of index page to Hello World
+3.3 open the web server on web browser
+
+4. create a github account
+4.1 clone vim repository to home directory
+4.2 configure build and install vim in the instance
+4.3 set background to dark in vim configuration
+4.4 open 3 files in vertical split windows
+
+5. Use ansible to ping host instance on aws 
+Use ansible playbook to 
+5.1 install nginx 
+5.2 copy index file with a variable var.
+5.3 substitute the variable with string 'Hello World'
+
+6. Use maven to 
+6.1 build a Hello World java program
+6.2 install, exec and deploy it the same machine
+
