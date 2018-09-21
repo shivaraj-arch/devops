@@ -1,0 +1,11 @@
+---
+- hosts: webservers
+  user: admin
+  tasks:
+        - action: command uptime
+...
+#setup
+#df -h
+#uptime
+#command
+#service

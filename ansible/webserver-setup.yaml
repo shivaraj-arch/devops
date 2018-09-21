@@ -1,0 +1,10 @@
+---
+- hosts: webservers
+  vars: 
+        - WelcomeMsg: "welcome to nginx through ansible"
+  tasks:
+        - name: setup nginx
+          apt: pkg=nginx state=installed update_cache=true
+        - name: copy index.html file
+          template: src=index.html dest=/usr/share/nginx/html/index.html
+...
