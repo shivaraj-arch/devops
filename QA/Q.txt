@@ -26,4 +26,15 @@ Use ansible playbook to
 6. Use maven to 
 6.1 build a Hello World java program
 6.2 install, exec and deploy it the same machine
+6.3 run a simple java app on jenkins running on a docker
+https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/
 
+7. create two instances on aws
+7.1 copy ssh public key of one instance to another
+7.2 run ansible and ansible-playbook commands
+
+8. Install jenkins on server
+8.1 open required port on aws console
+8.2 Set up blue ocean pipeline on jenkins https://jenkins.io/doc/book/blueocean/getting-started/
+
+ 
