@@ -37,4 +37,7 @@ https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/
 8.1 open required port on aws console
 8.2 Set up blue ocean pipeline on jenkins https://jenkins.io/doc/book/blueocean/getting-started/
 
- 
+9. Install busybox on windows and try out various bash shell commands
+on it.
+
+10. 
